@@ -1,0 +1,21 @@
+extends layout
+
+block content
+
+  header.jumbotron.subhead#overview
+    h1 CONNECTED PROTOTYPE
+  section#homeContent
+    .row
+      .span12#sequencer
+        p 
+          a.btn(href="#", style="margin-top: 1px;")#sequencer-buttonStart
+            i.icon-retweet
+            |  Start strobing 
+          |  
+          a.btn(href="#", style="margin-top: 1px;")#sequencer-buttonStop
+            i.icon-off
+            |  Stop
+        #holder
+
+block scripts
+  script(src='/js/sequencer.js')

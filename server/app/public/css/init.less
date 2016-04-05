@@ -1,0 +1,213 @@
+/* init.js */
+/* Add additional stylesheets below
+-------------------------------------------------- */
+/*
+  Bootstrap's documentation styles
+  Special styles for presenting Bootstrap's documentation and examples
+*/
+
+
+/* Space out sub-sections more
+-------------------------------------------------- */
+section {
+  padding-top: 60px;
+}
+
+/* Jumbotrons
+-------------------------------------------------- */
+.jumbotron {
+  position: relative;
+}
+.jumbotron h1 {
+  margin-bottom: 9px;
+  font-size: 81px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.jumbotron p {
+  margin-bottom: 18px;
+  font-weight: 300;
+}
+.jumbotron .btn-large {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 14px 24px;
+  margin-right: 10px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+
+/* Specific jumbotrons
+------------------------- */
+/* supporting docs pages */
+.subhead {
+  padding-bottom: 0;
+  margin-bottom: 9px;
+}
+.subhead h1 {
+  font-size: 54px;
+}
+
+
+/* Responsive Docs
+-------------------------------------------------- */
+@media (max-width: 480px) {
+
+  /* Reduce padding above jumbotron */
+  body {
+    padding-top: 70px;
+  }
+
+  /* Change up some type stuff */
+  h2 {
+    margin-top: 27px;
+  }
+  h2 small {
+    display: block;
+    line-height: 18px;
+  }
+  h3 {
+    margin-top: 18px;
+  }
+
+  /* Adjust the jumbotron */
+  .jumbotron h1,
+  .jumbotron p {
+    text-align: center;
+    margin-right: 0;
+  }
+  .jumbotron h1 {
+    font-size: 45px;
+    margin-right: 0;
+  }
+  .jumbotron p {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .jumbotron .btn {
+    display: block;
+    font-size: 18px;
+    padding: 10px 14px;
+    margin: 0 auto 10px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+
+  /* Jumbotron buttons */
+  .jumbotron .btn {
+    margin-bottom: 10px;
+  }
+
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+  /* Scale down the jumbotron content */
+  .jumbotron h1 {
+    font-size: 54px;
+  }
+  .jumbotron p {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 980px) {
+
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+
+  /* Scale down the jumbotron content */
+  .jumbotron h1 {
+    font-size: 72px;
+  }
+
+}
+
+
+body {
+  position: relative;
+  padding-top: 90px;
+  background-color: white;
+  .jumbotron {
+    position: relative;
+  }
+  .jumbotron h1 {
+    margin-bottom: 9px;
+    font-size: 81px;
+    letter-spacing: -1px;
+    line-height: 1;
+  }
+  .jumbotron p {
+    margin-bottom: 18px;
+    font-weight: 300;
+  }
+  .subhead {
+    padding-bottom: 0;
+    margin-bottom: 9px;
+  }
+  .subhead h1 {
+    font-size: 54px;
+  }
+  #homeContent {
+    padding-top: 30px;
+  }
+  #homeBoxes {
+    padding-top: 30px;
+  }
+  .response {
+    line-height: 28px;
+    margin-left: 12px;
+  }
+
+  .response.error {
+    color: red;
+  }
+  label.label { display: inline; }
+
+  #sequencer-secondStep select {
+    margin-right: 4px;
+  }
+  .range {
+    margin-bottom: 0px;
+    position: relative;
+    top: -9px;
+    margin-left: 12px;
+    width: 373px;
+  }
+  .interval {
+    margin-bottom: 0px;
+    position: relative;
+    top: -9px;
+    margin-left: 12px;
+    width: 60px;
+  }
+  .collectedTags {
+    margin-top: 14px;
+  }
+
+  #connection-log {
+    height: 358px;
+    overflow: hidden;
+    padding-top: 4px;
+    overflow-x: hidden;
+    margin-bottom: 16px;
+  }
+}
